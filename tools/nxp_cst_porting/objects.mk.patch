@@ -1,0 +1,17 @@
+--- /home/haochenwei/work/cst-origin/cst-3.3.2/code/cst/code/back_end-ssl/src/objects.mk	2023-04-29 04:45:24.000000000 +0800
++++ /home/haochenwei/work/imx-cst/code/cst/code/back_end-ssl/src/objects.mk	2023-05-24 12:47:12.531507121 +0800
+@@ -18,12 +18,14 @@
+ # List the api object files to be built
+ OBJECTS += \
+ 	adapt_layer_openssl.o \
++	autox_sign_with_hsm.o \
+ 	pkey.o \
+ 	cert.o \
+ 	ssl_wrapper.o
+ 
+ OBJECTS_BACKEND_SSL += \
+ 	adapt_layer_openssl.o \
++	autox_sign_with_hsm.o \
+ 	pkey.o \
+ 	cert.o \
+ 	ssl_wrapper.o
